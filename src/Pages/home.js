@@ -114,7 +114,8 @@ const Home = {
                                             </p>
                                         </a>
                                     </div>
-                                    `).join('')}                                  
+                                    `).join('')}    
+                                           
                                 </div>
                                 </div>
                             </div>

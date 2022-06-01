@@ -2,6 +2,7 @@ import { apiGet } from "../../api"
 import { percent } from "../../api"
 const BookDetail = {
   render: async function (param) {
+
     const book = await apiGet(`/books/${param.data.id}`)
     console.log(book)
     return /*html*/ `
@@ -43,6 +44,7 @@ const BookDetail = {
                             <td class="bg-[#efefef] px-4 py-4 ">Công ty phát hành</td>
                             <td class="px-4">${book.publisher}</td>
                         </tr>
+                        
                         <tr>
                              <td class="bg-[#efefef] px-4 py-4">Nhà xuất bản</td>
                             <td class="px-4">${book.publisher}</td>
