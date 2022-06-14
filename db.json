@@ -9,11 +9,21 @@
   "books": [
     {
       "isHidden": false,
-      "authors": "Ca Tây ",
+      "authors":[
+        {
+          "id": 190697,
+          "name":  "Ca Tây",
+          "slug": "ca tay"
+        }
+      ],
       "book_cover": null,
-      "categories": "Sách tiếng Việt ",
+      "categories":  {
+        "id": 316,
+        "name": "Sách tiếng Việt",
+        "is_leaf": false
+      },
       "current_seller": "",
-      "description": "                                                                                                                                                                                                                                                                                                                                KỶ LUẬT vốn là ván cờ bạn phải tự đấu với chính mình. Thắng - bạn sẽ có được “bản năng của người mạnh mẽ nhất”, đó là sự tự kiểm soát bản thân. Thua - bạn mãi sống trong cảm giác tạm bợ, nuối tiếc. Càng dễ dàng dung túng cho những thói quen trì hoãn bao nhiêu, cuộc sống của bạn sẽ đi càng nhanh tới sự mất kiểm soát và thiếu quy hoạch bấy nhiêu.<br />\n<br />\nHãy kiên trì đặt ra yêu cầu cao với bản thân, từ chối sự mê hoặc của thói tùy tiện đồng thời thiết lập cho mình những thói quen tốt trong hành vi thường ngày. Sự nỗ lực sẽ luôn được đền đáp xứng đáng nếu bạn biết cách đầu tư công sức và thời gian. Bởi một ngày nào đó trong tương lai, những gì bạn làm sẽ phản chiếu đầy đủ trên chính con người và cuộc đời của bạn. <br />\n<br />\nCÀNG KỶ LUẬT, CÀNG TỰ DO - Mong rằng tại thời điểm kết thúc hành trình với cuốn sách, bạn đã là một phiên bản khác kỷ luật hơn, nhưng tự do hơn.<br />\n<br />\nMột vài trích dẫn:<br />\n<br />\n“Bạn cần phải biết rằng tình yêu là hoa thêu trên gấm. Có thì tốt, không có cũng chẳng sao, thực sự không đáng để bạn vì nó mà từ bỏ sự nghiệp, từ bỏ cơ hội thăng tiến thậm chí là từ bỏ cả cuộc đời vinh hoa sau này.”<br />\n<br />\n“Những người trưởng thành như chúng ta nên nhìn cuộc sống rộng hơn một chút, ghen có thể có, tức giận có thể có. Thế nhưng, có những cảm xúc chỉ nên lướt qua trong lòng, ngày hôm sau ngủ dậy hãy để nó rời đi cùng với đêm đen mới là cách lựa chọn tốt nhất.” <br />\n<br />\n“Mỗi người đều có kinh nghiệm sống không giống nhau, yêu cầu không giống nhau. Điều giống nhau là chúng ta đều nên tìm mọi cách trau dồi khả năng của bản thân để sống tốt cuộc đời này.”<br />\n<br /><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>\n                            \n                            \n                            \n                            \n                            \n                            \n                            \n                            \n                            \n                            ",
+      "description": "                                                                                                                                                                                                                                                                                                                                                                                                KỶ LUẬT vốn là ván cờ bạn phải tự đấu với chính mình. Thắng - bạn sẽ có được “bản năng của người mạnh mẽ nhất”, đó là sự tự kiểm soát bản thân. Thua - bạn mãi sống trong cảm giác tạm bợ, nuối tiếc. Càng dễ dàng dung túng cho những thói quen trì hoãn bao nhiêu, cuộc sống của bạn sẽ đi càng nhanh tới sự mất kiểm soát và thiếu quy hoạch bấy nhiêu.<br />\n<br />\nHãy kiên trì đặt ra yêu cầu cao với bản thân, từ chối sự mê hoặc của thói tùy tiện đồng thời thiết lập cho mình những thói quen tốt trong hành vi thường ngày. Sự nỗ lực sẽ luôn được đền đáp xứng đáng nếu bạn biết cách đầu tư công sức và thời gian. Bởi một ngày nào đó trong tương lai, những gì bạn làm sẽ phản chiếu đầy đủ trên chính con người và cuộc đời của bạn. <br />\n<br />\nCÀNG KỶ LUẬT, CÀNG TỰ DO - Mong rằng tại thời điểm kết thúc hành trình với cuốn sách, bạn đã là một phiên bản khác kỷ luật hơn, nhưng tự do hơn.<br />\n<br />\nMột vài trích dẫn:<br />\n<br />\n“Bạn cần phải biết rằng tình yêu là hoa thêu trên gấm. Có thì tốt, không có cũng chẳng sao, thực sự không đáng để bạn vì nó mà từ bỏ sự nghiệp, từ bỏ cơ hội thăng tiến thậm chí là từ bỏ cả cuộc đời vinh hoa sau này.”<br />\n<br />\n“Những người trưởng thành như chúng ta nên nhìn cuộc sống rộng hơn một chút, ghen có thể có, tức giận có thể có. Thế nhưng, có những cảm xúc chỉ nên lướt qua trong lòng, ngày hôm sau ngủ dậy hãy để nó rời đi cùng với đêm đen mới là cách lựa chọn tốt nhất.” <br />\n<br />\n“Mỗi người đều có kinh nghiệm sống không giống nhau, yêu cầu không giống nhau. Điều giống nhau là chúng ta đều nên tìm mọi cách trau dồi khả năng của bản thân để sống tốt cuộc đời này.”<br />\n<br /><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>\n                            \n                            \n                            \n                            \n                            \n                            \n                            \n                            \n                            \n                            \n                            \n                            ",
       "images": [
         {
           "base_url": "https://salt.tikicdn.com/ts/product/25/c4/75/73b6578834e8aa8e5e071b64fab93d5d.jpg",
@@ -37,7 +47,7 @@
         }
       ],
       "list_price": 109000,
-      "name": "Càng Kỷ Luật, Càng Tự Do ",
+      "name": "Càng Kỷ Luật, Càng Tự Do update",
       "original_price": "109000",
       "quantity_sold": {
         "text": "Đã bán 601",
@@ -350,9 +360,19 @@
       "id": 4
     },
     {
-      "authors": "Phan Minh Thông",
+      "authors": [
+        {
+          "id": 200397,
+          "name": "Phan Minh Thông",
+          "slug": "Phan Minh Thông"
+        }
+      ],
       "book_cover": null,
-      "categories": "Sách doanh nhân ",
+      "categories": {
+        "id": 316,
+        "name": "Sách doanh nhân ",
+        "is_leaf": false
+      },
       "current_seller": "73000",
       "description": "                                <p><strong>Sáng Tạo Không Giới Hạn Trong Kinh Doanh</strong></p>\n<p> </p>\n<p><span style=\"font-weight: 400;\">“…Đôi khi, thành công phụ thuộc vào một cái gì đó bên trong mỗi chúng ta, không phải là kết quả của việc nhiều tiền bạc, khả năng hô hào hay bằng cấp…”</span></p>\n<p> </p>\n<p><span style=\"font-weight: 400;\">Tác phẩm “Sáng Tạo Không Giới Hạn Trong Kinh Doanh” nói về những bí quyết trong khởi nghiệp, kinh doanh và bí mật thành công trong cuộc sống của nhà xuất khẩu nông sản - Chủ Tịch Phúc Sinh Group Phan Minh Thông. </span></p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/22/cb/39/698d1fa6b23b78238ada9fc5c11de10c.png\" alt=\"\" width=\"584\" height=\"584\" /></p>\n<p><span style=\"font-weight: 400;\"><br />Tác phẩm dày gần 300 trang, có phụ lục nhiều hình ảnh đẹp trích xuất từ bộ sưu tập nghệ thuật của chính tác giả với 24 bài viết dạng tản văn - truyện kể, 6 bài phỏng vấn, chia sẻ, viết về doanh nhân Phan Minh Thông.</span></p>\n<p> </p>\n<p><span style=\"font-weight: 400;\">Theo tác giả/Doanh Nhân Phan Minh Thông chia sẻ, tác phẩm “Sáng tạo không giới hạn trong kinh doanh” được anh viết trong 5 năm, xuất phát từ những cảm xúc thực tế với các chuyến đi công tác trong - ngoài nước, từ những câu chuyện làm ăn, kinh doanh và quan sát cuộc sống đến việc thực nghiệm chính bản thân anh trong niềm đam mê khám phá nghệ thuật ở cả hai giác độ: Sưu tập và sáng tạo.</span></p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" title=\"\" src=\"https://salt.tikicdn.com/ts/tmp/8a/ab/ae/87408d13d89e2969178740adb456ba19.png\" alt=\"\" width=\"567\" height=\"567\" /></p>\n<p><span style=\"font-weight: 400;\"><br />Tác phẩm: Sáng Tạo Không Giới Hạn Trong Kinh Doanh</span></p>\n<p><span style=\"font-weight: 400;\">Tác giả: Phan Minh Thông</span></p>\n<p><span style=\"font-weight: 400;\">Số trang: 284 trang</span></p>\n<p><span style=\"font-weight: 400;\">Nội dung tổng quát: nói về những bí quyết trong khởi nghiệp, kinh doanh và bí mật thành công trong cuộc sống của nhà xuất khẩu nông sản Phan Minh Thông.</span></p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>\n                            ",
       "images": [
