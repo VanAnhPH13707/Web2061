@@ -1,3 +1,5 @@
+import Home from "../pages/home";
+import reRender from "../ultilities/reRender";
 const Header = {
     render: function () {
         return /*html*/`
@@ -6,22 +8,27 @@ const Header = {
                 <nav class="xl:container xl:mx-auto sm:py-4 sm:px-7  px-4">
                     <div class="flex justify-between ">
                         <div class=" flex space-x-3 items-center">
-                            <img class=" font-normal w-30 h-10 leading-6 text-gray-800 dark:text-white " src="https://salt.tikicdn.com/ts/upload/ae/f5/15/2228f38cf84d1b8451bb49e2c4537081.png " />
+                           <a href="/"> <img class=" font-normal w-30 h-10 leading-6 text-gray-800 dark:text-white " src="https://salt.tikicdn.com/ts/upload/ae/f5/15/2228f38cf84d1b8451bb49e2c4537081.png " /></a>
                         </div>
-                        <div class=" pt-3">
-                            <div class="hidden relative mr-3 md:mr-0 md:block">
-                                <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
-                                    <svg class="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" /></svg>
-                                </div>
-                                <input type="text" id="email-adress-icon" class="block py-1.5 pl-10 w-96 h-12 text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search..." />
-                            </div>
+                        <div class=" pt-2">
+                            <form method="get" class="relative flex max-w-[746px] w-[100%] justify-end">
+                                <input
+                                class="max-w-[626px] placeholder:italic placeholder:text-sm outline-none block bg-white w-screen rounded-l py-3 pl-9 pr-3 shadow-sm sm:text-sm"
+                                placeholder="Search for anything..."
+                                type="text"
+                                name="search"
+                                id="header-input-search"
+                                />
+                                <button class="
+                                bg-blue-500 px-5 flex content-center 
+                                items-center text-[#fff] cursor-pointer
+                                hover:bg-opacity-80 border-2 border-bg-search rounded-r"
+                                id="header-btn-search"
+                                >Search</button>
+                            </form>
                         </div>
                         <div class="flex justify-between">
-                            <ul class="flex py-6 ">
-                                <li><a href="/" class="px-4 text-white hover:text-black">Trang chủ</a></li>
-                                <li><a href="" class="px-4 text-white hover:text-black">Sản phẩm</a></li>
-                                <li><a href="/about" class="px-4 text-white hover:text-black">Tin tức</a></li>
-                            </ul>
+                            
                             <div class="pl-2 pt-1 md:block ">
                                 <div class=" flex flex-col justify-center">
                                     <div class=" flex items-center justify-center">
@@ -43,7 +50,7 @@ const Header = {
                                                 <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
                                                     aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117">
                                                     <div class="py-1">
-                                                        <a href="" tabindex="1" class="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left">Đăng nhập</a>
+                                                        <a href="/admin" tabindex="1" class="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left">Admin</a>
                                                     </div>
                                                     <div class="py-1">
                                                         <a href="" tabindex="3" class="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left">Đăng kí</a>
@@ -72,18 +79,21 @@ const Header = {
                 </nav>
             </div>
 
-
-            
-
-            
         </div>
 
 
-
-
-        
         `
-    }
+    },
+    afterRender() {
+        const btnSearchElement = document.querySelector('#header-btn-search')
+        const inputSearchElement = document.querySelector('#header-input-search')
+        btnSearchElement.addEventListener('click', function(e) {
+            e.preventDefault()
+            console.log(inputSearchElement.value)
+            history.replaceState(null, null, `?search=${inputSearchElement.value}`);
+            reRender('#app', Home)
+        })
+      },
 }
 
 export default Header;
